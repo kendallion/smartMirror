@@ -1,0 +1,150 @@
+body{
+    background-color: #060709;
+    font-family: 'Montserrat', sans-serif;
+}
+
+input{
+    background: transparent;
+    border: none;
+}
+
+input:focus{
+    outline:0;
+}
+
+#dateAndTime{
+    margin-left:25px;
+    margin-top: 10px;
+    float: left;
+    width: 35%;
+    text-align: center;
+    overflow: auto;
+    /*border: solid;
+    border-color: white;
+    border-width: 1px;*/
+}
+
+#time{
+    overflow: auto;
+    color: white;
+    font-size: 128px;
+}
+
+#date{
+    overflow: auto;
+    color: white;
+    font-size:24px;
+}
+
+#weather{
+    margin-right: 15px;
+    margin-top: 25px;
+    float:right;
+    text-align: center;
+    /*border: solid;
+    border-color: white;
+    border-width: 1px;*/
+    color: white;
+    width: 35%;
+}
+
+#quote{
+    color: white;
+    position: absolute;
+    bottom: 40px;
+    left: 0px;
+    right: 0px;
+    width: 100%;
+    text-align: center;
+    font-size: 30px;
+}
+
+
+
+
+#weather ul {
+  margin: 0;
+  padding: 0;
+}
+
+#weather li {
+  padding: 20px;
+  display: inline-block;
+  border-radius: 5px;
+}
+
+#weather h2 {
+    display:inline;
+    margin: 0 0 0px;
+    color: #fff;
+    font-size: 100px;
+    font-weight: 300;
+    text-align: center;
+    text-shadow: 0px 1px 3px rgba(0, 0, 0, 0.15);
+}
+
+i {
+  color: #fff;
+  font-family: weather;
+  font-size: 150px;
+  font-weight: normal;
+  font-style: normal;
+  line-height: 0.0;
+  text-transform: none;
+}
+
+@font-face {
+    font-family: 'weather';
+    src: url('weatherIcons/artill_clean_icons.otf');
+    font-weight: normal;
+    font-style: normal;
+}
+
+.icon-0:before { content: ":"; }
+.icon-1:before { content: "p"; }
+.icon-2:before { content: "S"; }
+.icon-3:before { content: "Q"; }
+.icon-4:before { content: "S"; }
+.icon-5:before { content: "W"; }
+.icon-6:before { content: "W"; }
+.icon-7:before { content: "W"; }
+.icon-8:before { content: "W"; }
+.icon-9:before { content: "I"; }
+.icon-10:before { content: "W"; }
+.icon-11:before { content: "I"; }
+.icon-12:before { content: "I"; }
+.icon-13:before { content: "I"; }
+.icon-14:before { content: "I"; }
+.icon-15:before { content: "W"; }
+.icon-16:before { content: "I"; }
+.icon-17:before { content: "W"; }
+.icon-18:before { content: "U"; }
+.icon-19:before { content: "Z"; }
+.icon-20:before { content: "Z"; }
+.icon-21:before { content: "Z"; }
+.icon-22:before { content: "Z"; }
+.icon-23:before { content: "Z"; }
+.icon-24:before { content: "E"; }
+.icon-25:before { content: "E"; }
+.icon-26:before { content: "3"; }
+.icon-27:before { content: "a"; }
+.icon-28:before { content: "A"; }
+.icon-29:before { content: "a"; }
+.icon-30:before { content: "A"; }
+.icon-31:before { content: "6"; }
+.icon-32:before { content: "1"; }
+.icon-33:before { content: "6"; }
+.icon-34:before { content: "1"; }
+.icon-35:before { content: "W"; }
+.icon-36:before { content: "1"; }
+.icon-37:before { content: "S"; }
+.icon-38:before { content: "S"; }
+.icon-39:before { content: "S"; }
+.icon-40:before { content: "M"; }
+.icon-41:before { content: "W"; }
+.icon-42:before { content: "I"; }
+.icon-43:before { content: "W"; }
+.icon-44:before { content: "a"; }
+.icon-45:before { content: "S"; }
+.icon-46:before { content: "U"; }
+.icon-47:before { content: "S"; }
