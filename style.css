@@ -12,6 +12,24 @@ input:focus{
     outline:0;
 }
 
+#top, #bottom, #left, #right {
+	background: white;
+	position: fixed;
+	}
+	#left, #right {
+		top: 0; bottom: 0;
+		width: 25px;
+		}
+		#left { left: 0; }
+		#right { right: 0; }
+		
+	#top, #bottom {
+		left: 0; right: 0;
+		height: 25px;
+		}
+		#top { top: 0; }
+		#bottom { bottom: 0; }
+
 #dateAndTime{
     margin-left:25px;
     margin-top: 10px;
@@ -36,6 +54,18 @@ input:focus{
     font-size:24px;
 }
 
+#notification{
+    display: none;
+    position: absolute;
+    width: 20%;
+    top: 50px;
+    margin-left: 39%;
+    margin-right: 39%;
+    text-align: center;
+    color: white;
+    font-size: 24px;
+}
+
 #weather{
     margin-right: 15px;
     margin-top: 25px;
@@ -46,6 +76,72 @@ input:focus{
     border-width: 1px;*/
     color: white;
     width: 35%;
+}
+
+#menuDiv{
+    display: none;
+    position: relative;
+    margin-left: 30%;
+    margin-right: 30%;
+    top: 325px;
+}
+
+#menu{
+    color: white;
+    font-size: 12px;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    border-spacing: 14px;
+    border-collapse: separate;
+}
+
+#menuRow{
+    
+}
+
+.menuItem{
+    border: solid;
+    border-color: white;
+    border-width: 4px;
+    border-radius: 15px;
+    width: 120px;
+    opacity: .4;
+}
+
+#alarmDiv{
+    display: none;
+    position: relative;
+    margin-left: 25%;
+    margin-right: 37%;
+    top: 325px;
+}
+
+
+#alarm{
+    color: white;
+    table-layout: fixed;
+    font-size: 12px;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    width: 30%;
+}
+
+#alarmRow{
+    
+}
+
+.alarmItem{
+    /*border: solid;
+    border-color: white;
+    border-width: 4px;
+    border-radius: 15px;*/
+    padding: 0px;
+    margin: 0px;
+    width: 40px;
+    opacity: .4;
+    font-size: 48px;
 }
 
 #quote{
