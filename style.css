@@ -12,24 +12,6 @@ input:focus{
     outline:0;
 }
 
-#top, #bottom, #left, #right {
-	background: white;
-	position: fixed;
-	}
-	#left, #right {
-		top: 0; bottom: 0;
-		width: 25px;
-		}
-		#left { left: 0; }
-		#right { right: 0; }
-		
-	#top, #bottom {
-		left: 0; right: 0;
-		height: 25px;
-		}
-		#top { top: 0; }
-		#bottom { bottom: 0; }
-
 #dateAndTime{
     margin-left:25px;
     margin-top: 10px;
