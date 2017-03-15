@@ -18,20 +18,20 @@ input:focus{
     float: left;
     width: 35%;
     text-align: center;
-    overflow: auto;
+    overflow: visible;
     /*border: solid;
     border-color: white;
     border-width: 1px;*/
 }
 
 #time{
-    overflow: auto;
+    overflow: visible;
     color: white;
     font-size: 128px;
 }
 
 #date{
-    overflow: auto;
+    overflow: visible;
     color: white;
     font-size:24px;
 }
@@ -58,6 +58,7 @@ input:focus{
     border-width: 1px;*/
     color: white;
     width: 35%;
+    overflow: visible;
 }
 
 #menuDiv{

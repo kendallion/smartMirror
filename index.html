@@ -97,8 +97,8 @@
                     unit: 'f',
                     success: function(weather) {
                         html = '<table style="display:inline-table;margin-top:-10px;">'
-                        html += '<tr><td style="padding:0px;"><p style="display:inline;"><i class="icon-a" style="font-size:50px;">0</i>'+weather.sunset+'</p></td>'
-                        html += '<td style="padding:0px;width:100%;text-align:center;"><p style="display:inline;"><i class="icon-a" style="font-size:50px">,</i>'+weather.wind.direction+' '+weather.wind.speed+' '+weather.units.speed+'</p></td></tr>'
+                        html += '<tr><td style="padding:0px;max-width:100%"><p style="display:inline;overflow:visible"><i class="icon-a" style="font-size:45px;">0</i>' + weather.sunset+'</p></td>'
+                        html += '<td style="padding:0px;width:100%;text-align:center;"><p style="display:inline;"><i class="icon-a" style="font-size:40px">,</i>'+weather.wind.direction+' '+weather.wind.speed+' '+weather.units.speed+'</p></td></tr>'
                         html += '<tr><td style="padding:0px;"><i class="icon-'+weather.code+'"></i></h2></td>'
                         html += '<td style="padding:0px;"><h2>'+weather.temp+'&deg;</h2></td></tr>'
                         html += '<tr><td style="padding:0px;"><p style="font-size:28px;margin-top:-20px;display:inline;">'+weather.currently+'</p></td>'
