@@ -16,7 +16,7 @@ input:focus{
     margin-left:25px;
     margin-top: 10px;
     float: left;
-    width: 35%;
+    width: 36%;
     text-align: center;
     overflow: visible;
     /*border: solid;
@@ -27,7 +27,7 @@ input:focus{
 #time{
     overflow: visible;
     color: white;
-    font-size: 128px;
+    font-size: 120px;
 }
 
 #date{
